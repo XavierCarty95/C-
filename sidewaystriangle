@@ -1,0 +1,17 @@
+
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main(){
+for(int row = 1; row <= 7; row++){
+      
+    for ( int dashes = 1; dashes <= 4-abs(4-row); dashes++){
+        cout << "#";
+    }
+    
+  cout << "\n";
+   }
+}
+  
+ 
